@@ -436,8 +436,8 @@ th {
     margin: 0 auto;
 }
 
-.links {
+.top-nav > .links {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   float: right;
 }
