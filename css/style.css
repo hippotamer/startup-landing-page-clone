@@ -425,3 +425,19 @@ td,
 th {
   padding: 0;
 }
+
+.top-nav {
+  background-color: #fff;
+}
+
+.top-nav > .content {
+    width: 970;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.links {
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
