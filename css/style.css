@@ -426,6 +426,13 @@ th {
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+}
+
 .top-nav {
   background-color: #fff;
 }
@@ -440,4 +447,9 @@ th {
   list-style-type: none;
   display: inline-block;
   float: right;
+}
+
+.top-nav .links > .active {
+  color: #4c5058;
+  font-weight: 600;
 }
