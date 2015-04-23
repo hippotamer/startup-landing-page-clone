@@ -10,6 +10,10 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /**
@@ -437,7 +441,7 @@ body {
   background-color: #fff;
 }
 
-.top-nav > .content {
+.content {
     width: 970;
     height: 70px;
     margin: 0 auto;
@@ -469,3 +473,31 @@ body {
   cursor: pointer;
   color: #333333;
 }
+
+.intro {
+  background-size: cover;
+  background-image: url("file:///Users/ET/Thinkful/startup-landing-page-clone/images/first-background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 45.938rem;
+}
+
+.intro .content {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.5em; 
+  color: #fff;
+}
+
+
+
